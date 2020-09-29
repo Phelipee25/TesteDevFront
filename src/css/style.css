@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+#pageTop {
+    background-color: black;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: 48rem;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background:linear-gradient(to bottom, rgba(29, 29, 29, 0.3) 0%, rgba(77, 77, 77, 0.3) 75%, #8d8d8d 100%),url("../img/tiffany-nutt-400385-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+.compraBike {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    /* min-height: 35rem; */
+    padding: 3rem 0rem 8rem 17rem;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(143, 143, 143, 0.24) 75%, #000000 100%),url("../img/claude-piche-699725-unsplash.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+.formTwo {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    min-height: 35rem;
+    padding: 5rem 0 0 10rem;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(143, 143, 143, 0.24) 75%, #000000 100%),url("../img/0617_LP_MadoneSLR-slide-1-slimC.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+.buttonOne {
+    border-radius: 40px 40px 40px 40px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #780B00;
+    outline: 0;
+}
+
+.buttonTwo{
+    border-radius: 40px 40px 40px 40px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #E6A670;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    outline: 0;
+}
+
+.inputOne {
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: 0;
+    
+}
+
+
+
+
+
+#bikes {
+    width: 100px;
+    height: 96px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
